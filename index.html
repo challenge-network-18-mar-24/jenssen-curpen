@@ -27,7 +27,7 @@
                 </li>
             </a>
         </div>
-    </nav><!-- Fine Navbar -->
+    </nav>
 
     <!-- header -->
     <header id="home" class="header">
@@ -40,7 +40,7 @@
             <p class="header-subtitle">Studente front end </p>
             <button class="btn btn-primary">Clicca qui senza motivo</button>
         </div>
-    </header><!-- fine header -->
+    </header>
 
     <!-- about section -->
     <section class="section pt-0" id="about">
@@ -70,30 +70,19 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="./imgs/pencil-case.svg" class="icon">
                             <h6 class="title">Film</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                             <img src="./imgs/imm_anime.jpg" class="icon" class="subtitle">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
+                       
+
                         <div class="body">
-                            <img src="./imgs/responsive.svg" class="icon">
+                            <img src="./imgs/imm_anime.jpg" class="icon">
                             <h6 class="title">Anime</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="./imgs/responsive.svg" class="icon">
-                            <h6 class="title">Escursioni</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+                            <p class="subtitle">qualcosa da scrivere</p>
                         </div>
                     </div>
                 </div>
@@ -107,9 +96,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="./imgs/responsive.svg" class="icon">
+                            <h6 class="title">Rally<!--  --></h6>
+                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
+                                molestias dolorem iste quod.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
@@ -118,35 +118,35 @@
             <div class="row">
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img src="./imgs/folio-1.jpg" class="portfolio-card-img"
+                        <img src="./imgs/Java.jpg" class="portfolio-card-img"
                             alt="imm da inserire">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Java</h5>
-                                    <p class="font-weight-normal">Ecplipse,Spring</p>
+                                    <p class="font-weight-normal">Eclipse,Spring</p>
                             </span>
                         </span>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="./imgs/folio-2.jpg" class="img-responsive rounded"
+                        <img class="portfolio-card-img" src="./imgs/sql2.jpg" class="img-responsive rounded"
                             alt=" imm da inserire ">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Java Script</h5>
-                                    <p class="font-weight-normal"></p>
+                                <h4>SQL</h5>
+                                    <p class="font-weight-normal">MySQL</p>
                             </span>
                         </span>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="./imgs/folio-2.jpg" class="img-responsive rounded"
+                        <img class="portfolio-card-img" src="./imgs/html.jpg" class="img-responsive rounded"
                             alt=" imm da inserire ">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>HTML/CSS</h5>
+                                <h4>JavaScript/HTML/CSS</h5>
                                     <p class="font-weight-normal">Visual Studio, Bootstrap</p>
                             </span>
                         </span>
@@ -182,15 +182,21 @@
 
     <!-- footer -->
     <div class="container">
-        <footer class="footer">    
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="" class="link"><i class="ti-facebook"></i></a>
-                <a href="" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="" class="link"><i class="ti-instagram"></i></a>
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div> <!--fine di footer -->
 
 </body>
 
